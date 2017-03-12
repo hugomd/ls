@@ -6,18 +6,18 @@
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-geomicons": "^2.1.0",
-    "rebass": "^0.3.4"
+    "rebass": "^0.3.4",
+    "serve": "^5.0.2"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "now-start": "serve -s ./build",
-    "predeploy": "react-scripts build",
-    "deploy": "now && now alias"
+    "start": "react-scripts start",
+    "deploy": "now && now alias",
+    "now-start": "serve build/"
   }
 }
