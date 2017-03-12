@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Container, Footer, Heading, PageHeader } from 'rebass';
+import { Container, Footer, Heading, PageHeader, Divider, Button, Panel, PanelHeader, ButtonCircle } from 'rebass';
+import Icon from 'react-geomicons';
 import init from './basicTheme';
 
 class App extends Component {
@@ -23,12 +24,28 @@ class App extends Component {
         backgroundColor
         }}>
         <Container>
-          <PageHeader
-            description="A list of microservices I've published with now."
-            heading='ls' />
-          <a href='https://f.now.sh/'>micro-flags</a> &mdash; a microservice that returns a flag for a given country code.<br />
-            <a href='https://e.now.sh/'>micro-emoji</a> &mdash; a microservice that returns an emoji for a given emoji shortname.<br />
-            <a href='https://up.now.sh/'>micro-up</a> &mdash; a microservice that returns based on whether a website is up or not.<br />
+          <PageHeader description="A list of microservices I've published with now." heading='ls' />
+          <Panel theme="default">
+            <PanelHeader>Flags</PanelHeader>
+            A microservice that returns a flag for a given country code. <br /><br />
+            <a href='https://github.com/hugomd/micro-flags'>Source available on GitHub</a>.<br /><br />
+            <Button backgroundColor="primary" color="white" inverted rounded href="https://f.now.sh/">See it in action</Button>
+          </Panel>
+
+          <Panel theme="default">
+            <PanelHeader>Emoji</PanelHeader>
+            A microservice that returns an emoji for a given emoji shortname.<br /><br />
+            <a href='https://github.com/hugomd/micro-emoji'>Source available on GitHub</a>.<br /><br />
+            <Button backgroundColor="primary" color="white" inverted rounded href="https://e.now.sh/">See it in action</Button>
+          </Panel>
+
+          <Panel theme="default">
+            <PanelHeader>Up</PanelHeader>
+            A microservice that returns based on whether a website is up or not.<br /><br />
+            <a href='https://github.com/hugomd/micro-up'>Source available on GitHub</a>.<br /><br />
+            <Button backgroundColor="primary" color="white" inverted rounded href="https://up.now.sh/">See it in action</Button>
+          </Panel>
+
           <Footer>
             Made with &hearts; in Melbourne, by&nbsp;<a href='https://hugo.md/'>Hugo</a>.
           </Footer>
