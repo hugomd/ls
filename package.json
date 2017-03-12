@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-geomicons": "^2.1.0",
     "rebass": "^0.3.4"
   },
   "devDependencies": {
@@ -15,7 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "prenow-start": "react-scripts build",
-    "now-start": "serve -s ./build"
+    "now-start": "serve -s ./build",
+    "predeploy": "react-scripts build",
+    "deploy": "now && now alias"
   }
 }
