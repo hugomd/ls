@@ -29,21 +29,21 @@ class App extends Component {
             <PanelHeader>Flags</PanelHeader>
             A microservice that returns a flag for a given country code. <br /><br />
             <a href='https://github.com/hugomd/micro-flags'>Source available on GitHub</a>.<br /><br />
-            <Button backgroundColor="primary" color="white" inverted rounded href="https://f.now.sh/">See it in action</Button>
+            <Button backgroundColor="primary" color="white" inverted rounded href="https://f.now.sh/au">See it in action</Button>
           </Panel>
 
           <Panel theme="default">
             <PanelHeader>Emoji</PanelHeader>
             A microservice that returns an emoji for a given emoji shortname.<br /><br />
             <a href='https://github.com/hugomd/micro-emoji'>Source available on GitHub</a>.<br /><br />
-            <Button backgroundColor="primary" color="white" inverted rounded href="https://e.now.sh/">See it in action</Button>
+            <Button backgroundColor="primary" color="white" inverted rounded href="https://e.now.sh/smile/512">See it in action</Button>
           </Panel>
 
           <Panel theme="default">
             <PanelHeader>Up</PanelHeader>
             A microservice that returns based on whether a website is up or not.<br /><br />
             <a href='https://github.com/hugomd/micro-up'>Source available on GitHub</a>.<br /><br />
-            <Button backgroundColor="primary" color="white" inverted rounded href="https://up.now.sh/">See it in action</Button>
+            <Button backgroundColor="primary" color="white" inverted rounded href="https://up.now.sh/https://ls.now.sh/">See it in action</Button>
           </Panel>
 
           <Footer>
