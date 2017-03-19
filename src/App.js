@@ -46,6 +46,13 @@ class App extends Component {
             <Button backgroundColor="primary" color="white" inverted rounded href="https://up.now.sh/https://ls.now.sh/">See it in action</Button>
           </Panel>
 
+          <Panel theme="default">
+            <PanelHeader>Description</PanelHeader>
+            A microservice to get the description of a GitHub repository ✍️.<br /><br />
+            <a href='https://github.com/hugomd/micro-description'>Source available on GitHub</a>.<br /><br />
+            <Button backgroundColor="primary" color="white" inverted rounded href="https://d.now.sh/hugomd/ls">See it in action</Button>
+          </Panel>
+
           <Footer>
             Made with &hearts; in Melbourne, by&nbsp;<a href='https://hugo.md/'>Hugo</a>.
           </Footer>
