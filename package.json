@@ -9,6 +9,9 @@
     "rebass": "^0.3.4",
     "serve": "^5.0.2"
   },
+  "now": {
+    "alias": "ls.now.sh"
+  },
   "devDependencies": {
     "react-scripts": "0.9.5"
   },
